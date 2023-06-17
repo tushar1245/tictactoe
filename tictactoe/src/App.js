@@ -1,10 +1,15 @@
+import Board from './components/Board'
+import './styles.css';
 
-import './App.css';
 
 function App() {
-  return (
-      <h1> Tic Tac Toe Game under construction</h1>
-  );
-}
+    return(
+      <>
+          <h1>TicTacToe</h1>            
+          <Board/>
+      </>
+      
+    )
+};
 
 export default App;
